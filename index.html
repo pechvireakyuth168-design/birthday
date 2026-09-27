@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Happy Birthday 🎂</h1>
+
+        <h2> Rynn Cute❤️</h2>
+
+        <!-- រូបភាពដែលលោតចេញ -->
+        <div class="photos">
+
+            <img src="photo1.jpg" class="photo photo1">
+            <img src="photo2.jpg" class="photo photo2">
+            <img src="photo3.jpg" class="photo photo3">
+
+        </div>
+
+        <!-- ប្រអប់កាដូ -->
+        <div class="gift" onclick="openGift()">
+
+            <div class="gift-lid"></div>
+
+            <div class="gift-box">
+                🎁
+            </div>
+
+            <p>Click Me 🎀</p>
+
+        </div>
+
+    </div>
+
+
+    <script>
+
+        function openGift() {
+
+            document.querySelector(".container")
+                .classList.add("opened");
+
+        }
+
+    </script>
+
+</body>
+</html>
+
